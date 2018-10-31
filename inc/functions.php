@@ -43,7 +43,7 @@
     }
     function play(){
         for ($i = 1; $i < 4; $i++){
-            ${"randval".$i}=rand(3,3);
+            ${"randval".$i}=rand(0,3);
             displaySymbol(${"randval".$i},$i);
         }
         displayPoints($randval1, $randval2, $randval3);
